@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <dimen name="status_bar_padding">0dp</dimen>
+
+    <dimen name="button_padding_vertical">10dp</dimen>
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="toolbar_margin_horizontal">8dp</dimen>
+    <dimen name="item_song_height">60dp</dimen>
+
+    <dimen name="mini_player_height">64dp</dimen>
+    <dimen name="bottom_nav_height">80dp</dimen>
+    <dimen name="bottom_nav_mini_player_height">144dp</dimen>
+
+    <dimen name="image_width_height">250dp</dimen>
+
+    <dimen name="m3_card_corner_radius">16dp</dimen>
+    <dimen name="m3_dialog_corner_size">28dp</dimen>
+</resources>

@@ -1,0 +1,30 @@
+<!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="16dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960"
+    android:tint="?attr/colorControlNormal">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M480.28,864Q401,864 331,834t-122.5,-82.5Q156,699 126,629.04t-30,-149.5Q96,400 126,330.5q30,-69.5 82.5,-122T330.96,126q69.96,-30 149.5,-30t149.04,30q69.5,30 122,82.5T834,330.72q30,69.73 30,149Q864,559 834,629t-82.5,122.5Q699,804 629.28,834q-69.73,30 -149,30ZM432,788v-68q-20,0 -34,-14.1T384,672v-48L175,415q-4,19 -5.5,35t-1.5,30q0,115 74.5,203T432,788ZM720,679q36,-42 54,-92.96 18,-50.95 18,-106.04 0,-94.61 -52,-172.8Q688,229 600,192v24q0,29.7 -21.15,50.85Q557.7,288 528,288h-96v48q0,20.4 -13.8,34.2Q404.4,384 384,384h-48v96h240q20.4,0 34.2,13.8Q624,507.6 624,528v96h41q23,0 39,16t16,39Z" />
+</vector>

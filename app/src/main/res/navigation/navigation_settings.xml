@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_settings"
+    app:startDestination="@id/mainSettingsFragment">
+
+    <fragment
+        android:id="@+id/mainSettingsFragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.settings.MainSettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_main_settings">
+
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_themeSettingsFragment"
+            app:destination="@id/themeSettingsFragment" />
+
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_playbackSettingsFragment"
+            app:destination="@id/playbackSettingsFragment" />
+
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_personalizeSettingsFragment"
+            app:destination="@id/personalizeSettingsFragment" />
+
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_generalSettingsFragment"
+            app:destination="@id/generalSettingsFragment" />
+
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_aboutSettingsFragment"
+            app:destination="@id/aboutFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/themeSettingsFragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.settings.ThemeSettingsFragment"
+        android:label="@string/preference_category_title_themes" />
+
+    <fragment
+        android:id="@+id/playbackSettingsFragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.settings.PlaybackSettingsFragment"
+        android:label="@string/preference_category_title_playback" />
+
+    <fragment
+        android:id="@+id/personalizeSettingsFragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.settings.PersonalizeSettingsFragment"
+        android:label="@string/preference_category_title_personalize" />
+
+    <fragment
+        android:id="@+id/generalSettingsFragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.settings.GeneralSettingsFragment"
+        android:label="@string/preference_category_title_general" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.AboutFragment"
+        android:label="@string/preference_category_title_about" />
+</navigation>

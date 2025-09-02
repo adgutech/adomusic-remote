@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item
+        android:id="@+id/action_lyrics"
+        android:checkable="true"
+        android:icon="@drawable/ic_lyrics_selector"
+        android:orderInCategory="1"
+        android:title="@string/action_lyrics"
+        app:showAsAction="always" /> -->
+    <item
+        android:id="@+id/action_toggle_liked_songs"
+        android:checkable="true"
+        android:icon="@drawable/ic_favorite_24dp"
+        android:orderInCategory="2"
+        android:title="@string/action_save_to_liked_songs"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_playing_queue"
+        android:icon="@drawable/ic_queue_music_24dp_fill"
+        android:orderInCategory="3"
+        android:title="@string/title_now_playing_queue"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_add_to_playlist"
+        android:orderInCategory="4"
+        android:title="@string/action_add_to_playlist" />
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="5"
+        android:title="@string/action_share" />
+    <item
+        android:id="@+id/action_see_details_on_spotify"
+        android:orderInCategory="6"
+        android:title="@string/action_see_details_on_spotify" />
+    <item
+        android:id="@+id/action_browse_album"
+        android:orderInCategory="7"
+        android:title="@string/action_browse_album" />
+    <item
+        android:id="@+id/action_browse_artist"
+        android:orderInCategory="8"
+        android:title="@string/action_browse_artist" />
+    <item
+        android:id="@+id/action_equalizer"
+        android:orderInCategory="9"
+        android:title="@string/action_equalizer" />
+</menu>

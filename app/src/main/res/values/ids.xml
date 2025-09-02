@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <item name="action_settings" type="id" />
+    <item name="action_sort_order" type="id" />
+    <item name="action_album_sort_order_default" type="id" />
+    <item name="action_album_sort_order_asc" type="id" />
+    <item name="action_album_sort_order_desc" type="id" />
+    <item name="action_album_sort_order_artist" type="id" />
+    <item name="action_album_sort_order_artist_desc" type="id" />
+    <item name="action_album_sort_order_release_date" type="id" />
+    <item name="action_album_sort_order_release_date_desc" type="id" />
+    <item name="action_artist_sort_order_default" type="id" />
+    <item name="action_artist_sort_order_asc" type="id" />
+    <item name="action_artist_sort_order_desc" type="id" />
+    <item name="action_artist_sort_order_most_followed_asc" type="id" />
+    <item name="action_artist_sort_order_most_followed_desc" type="id" />
+    <item name="action_playlist_sort_order_default" type="id" />
+    <item name="action_playlist_sort_order_asc" type="id" />
+    <item name="action_playlist_sort_order_desc" type="id" />
+    <item name="action_playlist_sort_order_display_name_asc" type="id" />
+    <item name="action_playlist_sort_order_display_name_desc" type="id" />
+    <item name="action_playlist_sort_order_track_count_asc" type="id" />
+    <item name="action_playlist_sort_order_track_count_desc" type="id" />
+    <item name="action_multi_select_adapter_check_all" type="id" />
+</resources>
