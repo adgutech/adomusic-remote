@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://retromusic.app">
-    <img src="app\src\main\ic_launcher-playstore.png" height="512">
+    <img src="app\src\main\ic_launcher-playstore.png" height="128">
     <h1 align="center">AdoMusic Remote</h1>
   </a>
 </p>
