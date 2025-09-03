@@ -29,7 +29,7 @@ You can choose from three different home themes: Clearly White, Somewhat Dark, a
 - Equalizer.
 - Color accent.
 - Follow artists and/or playlists.
-- Top artists and songs you've listened to (Spotify Premium only).
+- Top artists and songs you've listened (Spotify Premium only).
 - Search navigation.
 
 ___
