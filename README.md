@@ -32,7 +32,7 @@ Where you can view your favorite artists and most-played songs, as well as saved
 ## Color:
 You can choose from three different home themes: Clearly White, Somewhat Dark, and Just Black for AMOLED displays. Select your favorite accent color from a color palette.
 
-### Included Features:
+## Included Features:
 - 3 base themes (clearly white, somewhat dark, and just black).
 - Choose from over eight currently playing themes.
 - Volume controls.
