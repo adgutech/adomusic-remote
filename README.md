@@ -14,7 +14,7 @@
   <a href="https://play.google.com/store/apps/details?id=com.adgutech.adomusic.remote" style="text-decoration:none" area-label="Play Store">
     <img src="https://img.shields.io/badge/Download-Google_Play-green.svg">
   </a>
-  <a href="https://github.com/adgutech/adomusic-remote/blob/master/README.md" style="text-decoration:none" area-label="License: GPL v3">
+  <a href="https://github.com/adgutech/adomusic-remote/blob/master/LICENSE.md" style="text-decoration:none" area-label="License: GPL v3">
     <img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg">
   </a>
 </p>
