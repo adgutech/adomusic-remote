@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_albums"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.albums.AlbumsFragment"
+        android:label="@string/title_albums"
+        tools:layout="@layout/fragment_main_recycler" />
+
+    <fragment
+        android:id="@+id/navigation_artists"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.artists.ArtistsFragment"
+        android:label="@string/title_artists"
+        tools:layout="@layout/fragment_main_recycler" />
+
+    <fragment
+        android:id="@+id/navigation_playlists"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.playlists.PlaylistsFragment"
+        android:label="@string/title_playlists"
+        tools:layout="@layout/fragment_playlists" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/albumDetailsFragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.albums.AlbumDetailsFragment"
+        tools:layout="@layout/fragment_album_details">
+        <argument
+            android:name="extra_album_id"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/artistDetailsFragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.artists.ArtistDetailsFragment"
+        tools:layout="@layout/fragment_artist_details">
+        <argument
+            android:name="extra_artist_id"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/playlistDetailsFragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.playlists.PlaylistDetailsFragment"
+        tools:layout="@layout/fragment_playlist_details">
+        <argument
+            android:name="extra_playlist_id"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsListFragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.DetailListFragment"
+        tools:layout="@layout/fragment_list_detail">
+        <argument
+            android:name="type"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/moreAlbumsFragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.artists.MoreAlbumsFragment"
+        tools:layout="@layout/fragment_more_albums">
+
+        <argument
+            android:name="extra_artist_id"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/playing_queue_fragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.queue.PlayingQueueFragment" />
+
+    <fragment
+        android:id="@+id/equalizer_fragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.EqualizerFragment" />
+
+    <fragment
+        android:id="@+id/settings_fragment"
+        android:name="com.adgutech.adomusic.remote.ui.fragments.settings.SettingsFragment" />
+</navigation>

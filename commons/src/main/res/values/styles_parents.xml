@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <style name="Theme.AppTheme.Base.Adaptive" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="toolbarPopupTheme">@style/ThemeOverlay.Material3.Light</item>
+        <item name="roundSelector">@drawable/selector_round</item>
+        <item name="rectSelector">@drawable/selector_rect</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.ActionButton.Overflow</item>
+        <item name="materialAlertDialogTheme">@style/materialAlertDialogTheme</item>
+        <item name="materialButtonStyle">@style/MaterialButtonTheme</item>
+        <item name="popupMenuStyle">@style/MaterialPopupMenuStyle</item>
+        <item name="popupWindowStyle">@style/MaterialPopupMenuStyle</item>
+        <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
+        <item name="elevationOverlayColor">@color/elevationOverlay</item>
+        <item name="popupMenuBackground">@drawable/popup_background</item>
+        <item name="android:windowActionModeOverlay">false</item>
+    </style>
+
+    <style name="Theme.AppTheme.Base" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="toolbarPopupTheme">@style/ThemeOverlay.Material3.Dark</item>
+        <item name="roundSelector">@drawable/selector_round</item>
+        <item name="rectSelector">@drawable/selector_rect</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.ActionButton.Overflow</item>
+        <item name="materialAlertDialogTheme">@style/materialAlertDialogTheme</item>
+        <item name="materialButtonStyle">@style/MaterialButtonTheme</item>
+        <item name="colorSurface">@color/darkColorSurface</item>
+        <item name="android:windowBackground">?colorSurface</item>
+        <item name="popupMenuStyle">@style/MaterialPopupMenuStyle</item>
+        <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
+        <item name="elevationOverlayColor">@color/elevationOverlay</item>
+        <item name="popupMenuBackground">@drawable/popup_background</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="Theme.AppTheme.Base.Black" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="roundSelector">@drawable/selector_round</item>
+        <item name="rectSelector">@drawable/selector_rect</item>
+        <item name="materialAlertDialogTheme">@style/materialAlertDialogTheme</item>
+        <item name="materialButtonStyle">@style/MaterialButtonTheme</item>
+        <item name="colorSurface">@color/blackColorSurface</item>
+        <item name="android:windowBackground">?colorSurface</item>
+        <item name="colorOnBackground">@color/blackColorSurface</item>
+        <item name="toolbarPopupTheme">@style/ThemeOverlay.Material3.Dark</item>
+        <item name="popupMenuStyle">@style/MaterialPopupMenuStyle</item>
+        <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
+        <item name="elevationOverlayColor">@color/elevationOverlayDark</item>
+        <item name="popupMenuBackground">@drawable/popup_background</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="Theme.AppTheme.Base.Light" parent="Theme.Material3.Light.NoActionBar">
+        <item name="roundSelector">@drawable/selector_round</item>
+        <item name="rectSelector">@drawable/selector_rect</item>
+        <item name="toolbarPopupTheme">@style/ThemeOverlay.Material3.Light</item>
+        <item name="android:windowBackground">?colorSurface</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.ActionButton.Overflow</item>
+        <item name="materialAlertDialogTheme">@style/materialAlertDialogTheme</item>
+        <item name="materialButtonStyle">@style/MaterialButtonTheme</item>
+        <item name="popupMenuStyle">@style/MaterialPopupMenuStyle</item>
+        <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
+        <item name="elevationOverlayColor">@color/elevationOverlayLight</item>
+        <item name="popupMenuBackground">@drawable/popup_background</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="musicProgressSliderParent">
+        <item name="android:progressDrawable">@android:color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:thumb">@drawable/slider_thumb</item>
+    </style>
+
+    <!-- content description is necessary to find the overflow button later in the layout-->
+    <style name="Widget.ActionButton.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:contentDescription">@string/abc_action_menu_overflow_description</item>
+    </style>
+</resources>

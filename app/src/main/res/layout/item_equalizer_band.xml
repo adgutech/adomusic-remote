@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/equalizer_band_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="16dp">
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/equalizerBandSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_centerVertical="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/equalizer_band_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/equalizer_band_label"
+        android:layout_width="@dimen/equalizer_width_text"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ems="4"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/subtitle1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/equalizerBandSeekBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="60 Hz" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

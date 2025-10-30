@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.AppTheme" parent="Theme.AppTheme.Base" />
+
+    <style name="Theme.AppTheme.Light" parent="Theme.AppTheme.Base.Light" />
+
+    <style name="Theme.AppTheme.Black" parent="Theme.AppTheme.Base.Black" />
+
+    <style name="Theme.AppTheme.FollowSystem" parent="Theme.AppTheme.Base.Adaptive">
+        <item name="android:windowBackground">?colorSurface</item>
+    </style>
+
+    <style name="Theme.AppTheme.MD3" parent="@style/Theme.Material3.DayNight.NoActionBar">
+        <item name="roundSelector">@drawable/selector_round</item>
+        <item name="rectSelector">@drawable/selector_rect</item>
+        <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
+        <item name="materialButtonStyle">@style/MaterialButtonTheme</item>
+    </style>
+
+    <style name="body1" parent="@style/TextAppearance.MaterialComponents.Body1" />
+    <style name="body2" parent="@style/TextAppearance.MaterialComponents.Body2" />
+
+    <style name="textButton" parent="@style/TextAppearance.MaterialComponents.Button" />
+
+    <style name="textCaption" parent="@style/TextAppearance.MaterialComponents.Caption" />
+
+    <style name="headline3" parent="@style/TextAppearance.MaterialComponents.Headline3" />
+    <style name="headline4" parent="@style/TextAppearance.MaterialComponents.Headline4" />
+    <style name="headline5" parent="@style/TextAppearance.MaterialComponents.Headline5" />
+    <style name="headline6" parent="@style/TextAppearance.MaterialComponents.Headline6" />
+
+    <style name="textOverline" parent="@style/TextAppearance.MaterialComponents.Overline" />
+
+    <style name="subtitle1" parent="@style/TextAppearance.MaterialComponents.Subtitle1" />
+    <style name="subtitle2" parent="@style/TextAppearance.MaterialComponents.Subtitle2" />
+
+    <style name="textNormal">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="materialAlertDialogTheme" parent="ThemeOverlay.Material3.MaterialAlertDialog" />
+
+    <style name="musicProgressSlider" parent="musicProgressSliderParent">
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="paddingBottomSystemWindowInsets">false</item>
+        <item name="android:maxWidth">@empty</item>
+    </style>
+
+    <style name="OverFlowButton">
+        <item name="srcCompat">@drawable/ic_more_vert_24dp</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">?attr/roundSelector</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="popupTheme">?attr/toolbarPopupTheme</item>
+        <item name="android:transitionName" tools:ignore="NewApi">toolbar</item>
+        <item name="layout_collapseMode">pin</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="titleMarginStart">16dp</item>
+    </style>
+
+    <style name="ToolbarTextAppearanceNormal">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.0125</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="searchChipStyle" parent="Widget.Material3.Chip.Filter.Elevated">
+        <item name="android:checked">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipEndPadding">10dp</item>
+        <item name="chipMinHeight">40dp</item>
+        <item name="chipStartPadding">10dp</item>
+        <item name="chipCornerRadius">20dp</item>
+    </style>
+
+    <style name="SubTitleTextAppearance">
+        <item name="android:textAppearance">@style/textOverline</item>
+        <item name="android:layout_gravity">start|center_vertical</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="fontThemeOverlay">
+        <item name="fontFamily">@font/nunito</item>
+        <item name="android:fontFamily">@font/nunito</item>
+    </style>
+
+    <style name="MaterialButtonTheme" parent="Widget.Material3.Button">
+        <item name="cornerRadius">6dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconTint">?attr/colorControlNormal</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textAppearance">@style/textNormal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingTop">@dimen/button_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/button_padding_vertical</item>
+    </style>
+
+    <style name="MaterialPopupMenuStyle" parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">@drawable/popup_background</item>
+    </style>
+
+    <style name="centeredCheckBoxTheme">
+        <item name="checkboxStyle">@style/CheckBoxStyle</item>
+    </style>
+
+    <style name="CheckBoxStyle" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:gravity">center_vertical|end</item>
+    </style>
+
+    <style name="ShapeAppearance.Material3.Circle" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Theme.AppTheme.Dialog" parent="Theme.Material3.DayNight.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/rounded_drawable</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="background">@color/transparent</item>
+    </style>
+
+    <style name="CircleFABOverlay">
+        <item name="floatingActionButtonStyle">
+            @style/Widget.MaterialComponents.FloatingActionButton
+        </item>
+    </style>
+
+    <style name="RoundedFABOverlay">
+        <item name="floatingActionButtonStyle">
+            @style/Widget.Material3.FloatingActionButton.Primary
+        </item>
+    </style>
+
+    <style name="Widget.AppTheme.Slider" parent="Widget.Material3.Slider.Legacy">
+        <item name="labelBehavior">gone</item>
+        <item name="thumbRadius">6dp</item>
+        <item name="haloRadius">18dp</item>
+    </style>
+
+    <style name="Widget.AppTheme.MD3.Custom.Slider" parent="Widget.Material3.Slider">
+        <item name="labelBehavior">gone</item>
+        <item name="thumbHeight">26dp</item>
+        <item name="thumbWidth">4dp</item>
+        <item name="thumbTrackGapSize">4dp</item>
+        <item name="trackHeight">14dp</item>
+        <item name="thumbElevation">0dp</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="haloRadius">0dp</item>
+    </style>
+
+    <style name="toolbarTextAppearanceNormal">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.0125</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+</resources>

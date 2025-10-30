@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="text_welcome">¡Bienvenido!</string>
+    <string name="text_hello">Hola,</string>
+    <string name="text_create_playlist_error">El nombre de la playlist no puede estar vacío</string>
+    <string name="text_could_not_scan_files">No se pudieron escanear %d archivos.</string>
+    <string name="text_connect_spotify">AdoMusic Remote requiere una conexión a Spotify para acceder a la biblioteca y controlar la reproducción remota.</string>
+    <string name="text_delete_access">Eliminar acceso</string>
+    <string name="text_download_language_failed">Error al descargar el idioma</string>
+    <string name="text_edit_playlist_note"><b>Nota:</b> Esto puede tardar unos segundos o minutos en cambiarlo, no modificar hasta que cambie el nombre y/o la descripción. Si no lo cambió, vuelva a intentar.</string>
+    <string name="text_scanned_files">Escaneados %1$d de %2$d archivos.</string>
+    <string name="text_playlist_added_to_library">Lista de reproducción %s agregada a la biblioteca</string>
+    <string name="text_added_track_count_to_playlist">Se añadieron %1$d canción(es) a %2$s</string>
+    <string name="text_added_to_queue">%s agregado a la cola</string>
+    <string name="text_made_in_mexico_by_adgutech">Hecho en México 🇲🇽 por AdguTech.</string>
+    <string name="text_playlist_created">%s creado con éxito</string>
+    <string name="text_pro_feature">%s es una función Pro</string>
+    <string name="text_restored_previous_purchase_please_restart">Compra anterior restaurada. Reinicia la aplicación para usar todas las funciones.</string>
+    <string name="text_unknown_error_occurred">Se produjo un error desconocido</string>
+    <string name="text_you_unfollowed">Has dejado de seguir a %s</string>
+    <string name="text_x_selected">%1$d seleccionados</string>
+    <string name="text_not_internet">Sin internet</string>
+    <string name="speech_not_supported">¡Lo siento! Tu dispositivo no admite entrada por voz</string>
+    <string name="speech_prompt">Busca en tu biblioteca</string>
+    <string name="followers">seguidores</string>
+
+    <!-- Permissions -->
+    <string name="permission_denied">Permiso denegado</string>
+    <string name="permission_granted">Permiso permitido</string>
+    <string name="permission_notification_denied">Permiso para acceso de notificación denegado</string>
+    <string name="permission_title_notification">Notificación (requerido)</string>
+    <string name="permission_summary_notification">AdoMusic Remote requiere acceso a las notificaciones del estado de conexión remota de la aplicación Spotify.</string>
+
+    <string name="summary_adomusic_remote_pro">Desbloquea todas las funciones: temas personalizados, controles de volumen, ecualizador y más.</string>
+    <string name="summary_item_limit">Los elementos de la biblioteca y las canciones de la lista de reproducción están limitados a un máximo de 50 elementos.</string>
+
+    <!-- on/off equalizer -->
+    <string name="text_on">Activado</string>
+    <string name="text_off">Desactivado</string>
+
+    <!-- action share -->
+    <string name="text_share_album">Compartir el álbum %s usando</string>
+    <string name="text_share_artist">Compartir el artista %s usando</string>
+    <string name="text_share_playlist">Compartir la playlist %s usando</string>
+    <string name="text_share_song">Compartir la canción %s usando</string>
+    <string name="text_share_app">Oye, mira este genial reproductor de música en: https://play.google.com/store/apps/details?id=%s</string>
+
+    <string name="title_spotify_premium_required">Se requiere Spotify Premium</string>
+    <string name="message_spotify_premium_required">Esta función está disponible solo para Spotify Premium. Para usarla, suscríbete a Spotify Premium.</string>
+
+    <!-- items count -->
+    <string name="count_album">Álbum</string>
+    <string name="count_albums">Álbumes</string>
+    <string name="count_artist">Artista</string>
+    <string name="count_artists">Artistas</string>
+    <string name="count_playlist">Lista de reproducción</string>
+    <string name="count_playlists">Listas de reproducción</string>
+    <string name="count_song">Canción</string>
+    <string name="count_songs">Canciones</string>
+
+    <!-- empty -->
+    <string name="empty">Vacío</string>
+    <string name="empty_albums">Sin álbumes</string>
+    <string name="empty_artists">Sin artistas</string>
+    <string name="empty_playlists">Sin listas de reproducción</string>
+    <string name="empty_search">Sin resultados</string>
+    <string name="empty_queue">Sin cola</string>
+    <string name="no_lyrics_found">No se encontraron letras</string>
+    <string name="empty_playlist_tracks">La lista de reproducción de %s está vacío.</string>
+
+    <string name="title_home">Inicio</string>
+    <string name="title_albums">Álbumes</string>
+    <string name="title_artists">Artistas</string>
+    <string name="title_description">Descripción</string>
+    <string name="title_now_playing_queue">Cola de reproducción</string>
+    <string name="title_playlists">Listas de reproducción</string>
+    <string name="title_search">Buscar</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_songs">Canciones</string>
+    <string name="title_liked_songs">Tus me gusta</string>
+    <string name="title_more_albums_from">Más álbumes de %s</string>
+    <string name="title_top_artists">Top artistas</string>
+    <string name="title_top_tracks">Top canciones</string>
+
+    <string name="action_accept">Aceptar</string>
+    <string name="action_add_custom_playlist_cover_image">Agregar una imagen de la portada personalizada</string>
+    <string name="action_add_to_current_playing">Agregar a la cola de reproducción</string>
+    <string name="action_add_to_playlist">Añadir a la lista de reproducción</string>
+    <string name="action_browse_album">Explorar álbum</string>
+    <string name="action_browse_artist">Explorar artista</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_connect">Conectar</string>
+    <string name="action_connect_with_spotify">Conectar con Spotify</string>
+    <string name="action_create">Crear</string>
+    <string name="action_download">Descargar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_equalizer">Ecualizador</string>
+    <string name="action_equalizer_custom">Personalizado</string>
+    <string name="action_exit">Salir</string>
+    <string name="action_finish">Finalizar</string>
+    <string name="action_follow">Seguir</string>
+    <string name="action_followed">Seguido</string>
+    <string name="action_go_to_pro">Ir a PRO</string>
+    <string name="action_grant">Permitir</string>
+    <string name="action_grant_access">Permitir el acceso</string>
+    <string name="action_keyboard">Teclado</string>
+    <string name="action_lyrics">Letra</string>
+    <string name="action_manager">Administrar</string>
+    <string name="action_play">Reproducir</string>
+    <string name="action_play_all">Reproducir todo</string>
+    <string name="action_ok">Ok</string>
+    <string name="action_remove">Eliminar</string>
+    <string name="action_remove_playlist_from_library">Quitar la lista de reproducción de la biblioteca</string>
+    <string name="action_remove_to_liked_songs">Quitar a Canciones que me gustan</string>
+    <string name="action_restore">Restaurar</string>
+    <string name="action_save_playlist_to_library">Guardar lista de reproducción en la biblioteca</string>
+    <string name="action_save_to_liked_songs">Guardar canción a Tus Me Gusta</string>
+    <string name="action_see_details_on_spotify">Ver detalles en Spotify</string>
+    <string name="action_select_all">Seleccionar todo</string>
+    <string name="action_set">Establecer</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_shuffle">Aleatorio</string>
+    <string name="action_try_again">Inténtalo de nuevo</string>
+
+    <!-- Sort order -->
+    <string name="action_sort_order">Ordenar por</string>
+    <string name="action_sort_order_default">Predeterminado</string>
+    <string name="action_sort_order_asc">Ascendente</string>
+    <string name="action_sort_order_desc">Descendente</string>
+    <string name="action_album_sort_order_artist">Artistas</string>
+    <string name="action_album_sort_order_artist_desc">Artistas descedente</string>
+    <string name="action_album_sort_order_release_date">Fecha de lanzamiento</string>
+    <string name="action_album_sort_order_release_date_desc">Fecha de lanzamiento descedente</string>
+    <string name="action_artist_sort_order_most_followed_asc">Más seguidores</string>
+    <string name="action_artist_sort_order_most_followed_desc">Más seguidores descedente</string>
+    <string name="action_playlist_sort_order_display_name_asc">Nombre de usuario</string>
+    <string name="action_playlist_sort_order_display_name_desc">Nombre de usuario descedente</string>
+    <string name="action_playlist_sort_order_track_count_asc">Recuento de pistas</string>
+    <string name="action_playlist_sort_order_track_count_desc">Recuento de pistas descedente</string>
+
+    <string name="hint_description">Descripción (opcional)</string>
+    <string name="hint_playlist_name">Nombre de la lista de reproducción</string>
+    <string name="hint_search">Buscar canciones, álbumes, artistas y listas de reproducción</string>
+    <string name="hint_search_songs">Buscar canciones</string>
+
+    <!-- dialogs -->
+    <string name="title_browse_artist_on">Explorar artista a</string>
+    <string name="title_spotify_install">Spotify no está instalada</string>
+    <string name="message_spotify_install">Descarga Spotify en Google Play para acceder a tu música.</string>
+    <string name="title_notice">Nota</string>
+    <string name="message_spotify_premium">Lo sentimos, no tienes Spotify Premium para acceder a tu biblioteca.</string>
+    <string name="title_edit_playlist">Editar lista de reproducción</string>
+    <string name="title_new_playlist">Nueva lista de reproducción</string>
+    <string name="summary_check_playlist_public">Marcar la lista de reproducción como pública</string>
+    <string name="title_remove_playlist_from_library">Quitar lista de reproducción</string>
+    <string name="message_remove_playlist_from_library">¿Quieres quitar la lista de reproducción %s?, la lista de reproduccion no se eliminará creados por los usuarios.</string>
+
+    <!-- Album Type -->
+    <string name="album_type_album">Álbumes</string>
+    <string name="album_type_appears_on">Aparece en</string>
+    <string name="album_type_compilation">Compilaciones</string>
+    <string name="album_type_single">Sencillos y EP</string>
+
+    <string name="type_album">Álbum</string>
+    <string name="type_single">Sencillo</string>
+
+    <string name="various_artists">Varios Artistas</string>
+
+    <!-- Preferences -->
+
+    <!-- Preferences category title & summary -->
+    <string name="preference_category_title_themes">Temas</string>
+    <string name="preference_category_summary_themes">Cambia el tema y los colores de la app.</string>
+    <string name="preference_category_title_playback">Reproducción</string>
+    <string name="preference_category_summary_playback">Personaliza la pantalla de reproducción.</string>
+    <string name="preference_category_title_personalize">Personalizar</string>
+    <string name="preference_category_summary_personalize">Personaliza los controles de reproducción y la interfaz de usuario.</string>
+    <string name="preference_category_title_general">General</string>
+    <string name="preference_category_summary_general">Funciones generales de prueba.</string>
+    <string name="preference_category_title_spotify_settings">Configuración de Spotify</string>
+    <string name="preference_category_summary_spotify_settings">Más configuraciones en la app de Spotify.</string>
+    <string name="preference_category_title_about">Acerca de</string>
+    <string name="preference_category_summary_about">Licencia, donaciones y más.</string>
+
+    <!-- preferences subcategory -->
+
+    <!-- Theme Preference -->
+    <string name="title_preference_subcategory_theme">Tema</string>
+    <string name="title_preference_subcategory_colors">Colores</string>
+
+    <string name="title_preference_app_theme">Tema de la aplicación</string>
+    <string name="title_preference_just_black">Solo negro</string>
+    <string name="title_preference_material_you">Material You</string>
+    <string name="title_preference_use_font">Usar la fuente Nunito</string>
+    <string name="title_preference_wallpaper_color">Color del fondo de pantalla</string>
+    <string name="title_preference_accent_color">Color de acento</string>
+    <string name="title_preference_desaturated_color">Color desaturado</string>
+    <string name="title_preference_adaptive_color">Color adaptable</string>
+
+    <string name="summary_preference_wallpaper_color">Extraer el color de acento del fondo de pantalla</string>
+    <string name="summary_preference_accent_color">El color de énfasis del tema es azul por defecto.</string>
+    <string name="summary_preference_desaturated_color">Según las directrices de Material Design, los colores en el modo oscuro deben ser desaturados.</string>
+    <string name="summary_preference_adaptive_color">Los colores del fondo y de los botones de control cambian según la carátula del álbum en la pantalla de reproducción.</string>
+
+    <!-- Theme arrays preference -->
+    <string name="title_light_theme">Tema claro</string>
+    <string name="title_dark_theme">Tema oscuro</string>
+    <string name="title_follow_system_theme">Seguir sistema</string>
+
+    <!-- Playback preference -->
+    <string name="title_preference_subcategory_controls">Controles</string>
+
+    <string name="title_preference_playback_theme">Tema de reproducción</string>
+    <string name="title_preference_snow_fall_effect">Efecto nevada</string>
+    <string name="title_preference_lyrics_type">Tipo de letra</string>
+    <string name="title_preference_lyrics_screen_on">Mantener la pantalla encendida al mostrar la letra</string>
+    <string name="title_preference_circular_play_button">Botón de reproducción circular</string>
+    <string name="title_preference_extra_controls">Controles adicionales</string>
+    <string name="title_preference_volume_controls">Controles de volumen</string>
+    <string name="title_preference_expand_now_playing_panel">Expandir el panel de reproducción</string>
+    <string name="title_preference_blur_amount">Cantidad de desenfoque</string>
+
+    <string name="summary_preference_snow_fall_effect">Puedes disfrutar de la función Nevada durante la temparada navidena. Esta función está disponible para la temporada Navidena.</string>
+    <string name="summary_preference_lyrics_screen_on">Ten en cuenta que activar esta función puede afectar la duración de la batería.</string>
+    <string name="summary_preference_extra_controls">Añadir controles adicionales para el minirreproductor.</string>
+    <string name="summary_preference_volume_controls">Si hay suficiente espacio disponible, mostrar los controles de volumen en la pantalla de reproducción.</string>
+    <string name="summary_preference_expand_now_playing_panel">Al hacer clic en la notificación, se mostrará la pantalla de reproducción actual en lugar de la pantalla de inicio.</string>
+    <string name="summary_preference_blur_amount">Cantidad de desenfoque aplicada a los temas de desenfoque. Cuanto menor, más rápido.</string>
+
+    <!-- Playback arrays preference -->
+    <string name="replace_cover">Reemplazar la portada</string>
+    <string name="over_cover">Sobreportada</string>
+
+    <!-- Personalize preference -->
+    <string name="title_preference_subcategory_library">Biblioteca</string>
+    <string name="title_preference_subcategory_window">Ventana</string>
+
+    <string name="title_preference_remember_tab">Recordar pestaña</string>
+    <string name="title_preference_tab_titles_mode">Modo de títulos de pestañas</string>
+    <string name="title_preference_appbar_mode">Modo de la barra de aplicaciones</string>
+    <string name="title_preference_fullscreen">Pantalla completa</string>
+
+    <string name="summary_preference_remember_tab">Ir a la última pestaña usada al inicio</string>
+    <string name="summary_preference_fullscreen">Modo inmersivo</string>
+
+    <!-- Tab titles mode arrays preference -->
+    <string name="auto">Automático</string>
+    <string name="labeled">Etiquetado</string>
+    <string name="selected">Seleccionado</string>
+    <string name="unlabeled">Sin etiquetar</string>
+
+    <!-- Appbar mode arrays preference -->
+    <string name="expanded">Expandido</string>
+    <string name="compact">Compacto</string>
+
+    <!-- General preference -->
+    <string name="title_preference_subcategory_top_played">Lo más escuchado</string>
+    <string name="title_preference_subcategory_advanced">Avanzado</string>
+
+    <string name="title_preference_last_top_played_artist">Últimos artistas más escuchados</string>
+    <string name="title_preference_last_top_played_track">Últimas canciones más escuchadas</string>
+    <string name="title_preference_pause_on_zero">Pausa en cero</string>
+    <string name="title_preference_keep_screen_on">Mantener la pantalla encendida</string>
+    <string name="title_preference_adjust_volume">Ajustar el volumen</string>
+    <string name="title_preference_language">Idioma</string>
+
+    <string name="summary_preference_pause_on_zero">Pausa la canción cuando el volumen baja a cero y comienza a reproducirse cuando el volumen sube. Sube</string>
+    <string name="summary_preference_keep_screen_on">Ten en cuenta que habilitar esta función puede afectar la duración de la batería</string>
+    <string name="summary_preference_adjust_volume">Controla el volumen cuando no estés reproduciendo</string>
+
+    <!-- Top Played Time Range preference -->
+    <string name="four_weeks">Últimas 4 semanas</string>
+    <string name="six_months">Últimos 6 meses</string>
+    <string name="twelve_months">Últimos 12 meses</string>
+
+    <!-- About -->
+    <string name="title_version">Version</string>
+    <string name="title_rate_app">Calificar la app</string>
+    <string name="title_donate">Donar con PayPal</string>
+    <string name="title_share_app">Compartir la app</string>
+    <string name="title_licenses">Licencias</string>
+    <string name="title_privacy_policy">Política de privacidad</string>
+
+    <string name="summary_rate_app">¿Te gusta esta app? Cuéntanos en Google Play cómo podemos mejorarla.</string>
+    <string name="summary_donate">Si crees que merezco que me paguen por mi trabajo, puedes dejar algo de dinero aquí.</string>
+    <string name="summary_share_app">Comparte la app con tus amigos y familiares.</string>
+
+    <!-- Pro -->
+    <string name="pro_now_playing_theme">5+ Temas de reproducción</string>
+    <string name="pro_just_black">Solo negro</string>
+    <string name="pro_adaptive_color">Color adaptivo</string>
+    <string name="pro_volume_controls">Controles de volumen</string>
+    <string name="pro_pause_on_zero">Pausar en cero</string>
+    <string name="pro_equalizer">Ecualizador</string>
+
+    <string name="text_could_not_restore_purchase">No pudimos restaurar la compra</string>
+    <string name="text_no_purchase_found">Compra no encontrado</string>
+    <string name="text_purchased">Compra exitosamente</string>
+    <string name="text_restoring_purchase">Restaurando la compra…</string>
+
+    <!-- Pro features -->
+    <string name="title_preference_just_black_pro">Solo negro (PRO)</string>
+    <string name="title_preference_adaptive_color_pro">Color adaptivo (PRO)</string>
+    <string name="title_preference_volume_controls_pro">Controles de volumen (PRO)</string>
+    <string name="title_preference_pause_on_zero_pro">Pausar en cero (PRO)</string>
+    <string name="action_equalizer_pro">Ecualizador (PRO)</string>
+
+    <!-- Notification -->
+    <string name="title_notification_app_remote">Notificación App remote</string>
+    <string name="description_notification_app_remote">La notificación remota de la aplicación proporciona conexión a Spotify.</string>
+
+    <string name="title_notification_app_remote_connected">AdoMusic Remote está ejecutando</string>
+    <string name="title_notification_app_remote_disconnected">AdoMusic Remote está desconectado</string>
+    <string name="summary_notification_app_remote_connected">AdoMusic está conectado a la aplicación Spotify remota.</string>
+    <string name="summary_notification_app_remote_disconnected">Vuelve a conectar de nuevo.</string>
+</resources>

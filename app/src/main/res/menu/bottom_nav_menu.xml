@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_selector"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/navigation_albums"
+        android:icon="@drawable/ic_album_selector"
+        android:title="@string/title_albums" />
+    <item
+        android:id="@+id/navigation_artists"
+        android:icon="@drawable/ic_artist_selector"
+        android:title="@string/title_artists" />
+    <item
+        android:id="@+id/navigation_playlists"
+        android:icon="@drawable/ic_queue_music_24dp_fill"
+        android:title="@string/title_playlists" />
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_24dp"
+        android:title="@string/title_search" />
+</menu>

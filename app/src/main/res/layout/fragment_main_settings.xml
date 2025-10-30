@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="@integer/overScrollMode">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/mini_player_height">
+
+        <com.adgutech.commons.ui.views.PreferenceCategoryView
+            android:id="@+id/preferenceThemes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_palette_24dp"
+            app:titlePreference="@string/preference_category_title_themes"
+            app:summaryPreference="@string/preference_category_summary_themes" />
+
+        <com.adgutech.commons.ui.views.PreferenceCategoryView
+            android:id="@+id/preferencePlayback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_play_circle_24dp"
+            app:titlePreference="@string/preference_category_title_playback"
+            app:summaryPreference="@string/preference_category_summary_playback" />
+
+        <com.adgutech.commons.ui.views.PreferenceCategoryView
+            android:id="@+id/preferencePersonalize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_hdr_strong_24dp"
+            app:titlePreference="@string/preference_category_title_personalize"
+            app:summaryPreference="@string/preference_category_summary_personalize" />
+
+        <com.adgutech.commons.ui.views.PreferenceCategoryView
+            android:id="@+id/preferenceGeneral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_testing_24dp"
+            app:titlePreference="@string/preference_category_title_general"
+            app:summaryPreference="@string/preference_category_summary_general" />
+
+        <com.adgutech.commons.ui.views.PreferenceCategoryView
+            android:id="@+id/preferenceSpotifySettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_settings_24dp"
+            app:titlePreference="@string/preference_category_title_spotify_settings"
+            app:summaryPreference="@string/preference_category_summary_spotify_settings" />
+
+        <com.adgutech.commons.ui.views.PreferenceCategoryView
+            android:id="@+id/preferenceAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_info_24dp"
+            app:titlePreference="@string/preference_category_title_about"
+            app:summaryPreference="@string/preference_category_summary_about" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<notices>
+
+    <notice>
+        <name>Spotify Android SDK</name>
+        <url>https://github.com/spotify/android-sdk</url>
+        <copyright>Copyright 2018 Spotify AB</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>AppThemeHelper by RetroMusicPlayer</name>
+        <url>https://github.com/RetroMusicPlayer/RetroMusicPlayer</url>
+        <copyright>Copyright 2020 Aidan Follestad, Karim Abou Zeid</copyright>
+        <license>GNU General Public License 3.0</license>
+    </notice>
+
+    <notice>
+        <name>Player Theme by RetroMusicPlayer</name>
+        <url>https://github.com/RetroMusicPlayer/RetroMusicPlayer</url>
+        <copyright>Copyright 2020 Hemanth Savarla</copyright>
+        <license>GNU General Public License 3.0</license>
+    </notice>
+
+    <notice>
+        <name>Phonograph</name>
+        <url>https://github.com/kabouzeid/Phonograph</url>
+        <copyright>Copyright 2014 Karim Abou Zeid</copyright>
+        <license>GNU General Public License 3.0</license>
+    </notice>
+
+    <notice>
+        <name>Glide</name>
+        <url>https://github.com/bumptech/glide</url>
+        <copyright>Copyright 2014 Sam Judd.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Retrofit</name>
+        <url>https://github.com/square/retrofit</url>
+        <copyright>Copyright 2013 Square, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>OkHttp</name>
+        <url>http://square.github.io/okhttp/</url>
+        <copyright>Copyright 2019 Square, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Koin</name>
+        <url>https://github.com/InsertKoinIO/koin</url>
+        <copyright>Copyright 2018 Arnaud Giuliani</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Material Dialogs</name>
+        <url>https://github.com/afollestad/material-dialogs</url>
+        <copyright>Copyright 2018 Aidan Follestad</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Material Contextual Action Bar</name>
+        <url>https://github.com/afollestad/material-cab</url>
+        <copyright>Copyright 2016 Aidan Follestad</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Android In-App Billing v3 Library</name>
+        <url>https://github.com/anjlab/android-inapp-billing-v3</url>
+        <copyright>Copyright 2014 AnjLab</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Advanced RecyclerView</name>
+        <url>https://github.com/h6ah4i/android-advancedrecyclerview</url>
+        <copyright>Copyright 2015 Haruki Hasegawa</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>NanoHttpd</name>
+        <url>https://github.com/NanoHttpd/nanohttpd</url>
+        <copyright>Copyright 2001 Jarno Elonen</copyright>
+        <!--<license>BSD-3-Clause License</license>-->
+    </notice>
+
+    <notice>
+        <name>AndroidFastScroll</name>
+        <url>https://github.com/zhanghai/AndroidFastScroll</url>
+        <copyright>Copyright 2019 Google LLC</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <!--<notice>
+        <name>Image Picker</name>
+        <url>https://github.com/Dhaval2404/ImagePicker</url>
+        <copyright>Copyright 2019 Dhaval Patel</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>-->
+
+    <notice>
+        <name>Material Intro</name>
+        <url>https://github.com/janheinrichmerker/material-intro</url>
+        <copyright>Copyright 2017 Jan Heinrich Reimer</copyright>
+        <license>MIT License</license>
+    </notice>
+
+    <notice>
+        <name>Slidr</name>
+        <url>https://github.com/r0adkll/Slidr</url>
+        <copyright>Copyright 2014 Drew Heavner</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Android FadingEdgeLayout</name>
+        <url>https://github.com/bosphere/Android-FadingEdgeLayout</url>
+        <copyright>Copyright 2017 Yang Bo</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>KeyboardVisibilityEvent</name>
+        <url>https://github.com/yshrsmz/KeyboardVisibilityEvent</url>
+        <copyright>Copyright 2015 Shimizu Yasuhiro</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Android Snowfall</name>
+        <url>https://github.com/JetradarMobile/android-snowfall</url>
+        <copyright>Copyright 2016 JetRadar</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Insetter</name>
+        <url>https://github.com/chrisbanes/insetter</url>
+        <copyright>Copyright 2019 Google LLC</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Icons by Google</name>
+        <url>https://fonts.google.com/icons</url>
+        <copyright>Copyright 2024 Google LLC</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>LicensesDialog</name>
+        <url>http://psdev.de/LicensesDialog</url>
+        <copyright>Copyright 2013-2016 Philip Schiffer</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+</notices>

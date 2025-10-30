@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdoMusic Remote</string>
+
+    <string name="title_adomusic_remote_pro">AdoMusic Remote PRO</string>
+
+    <!-- Now player styles -->
+    <string name="blur">Blur</string>
+    <string name="color">Color</string>
+    <string name="material">Material</string>
+    <string name="md3">MD3</string>
+    <string name="normal">Normal</string>
+    <string name="peek">Peek</string>
+    <string name="plain">Plain</string>
+    <string name="simple">Simple</string>
+
+    <string name="pro">Pro</string>
+
+    <!-- descriptions -->
+    <string name="desc_create_playlist">Create playlist</string>
+</resources>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="text_welcome">Welcome!</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_create_playlist_error">Playlist name can\'t be empty</string>
+    <string name="text_connect_spotify">AdoMusic Remote requires a Spotify connection to access the library and control remote playback.</string>
+    <string name="text_could_not_scan_files">Could not scan %d files.</string>
+    <string name="text_delete_access">Delete access</string>
+    <string name="text_download_language_failed">Language download failed</string>
+    <string name="text_edit_playlist_note"><b>Note:</b> This may take a few seconds or minutes to change, do not edit until you change the name and/or description. If it doesn\'t change, try again.</string>
+    <string name="text_scanned_files">Scanned %1$d of %2$d files.</string>
+    <string name="text_playlist_added_to_library">%s playlist added to library</string>
+    <string name="text_added_track_count_to_playlist">Added %1$d song(s) to %2$s</string>
+    <string name="text_added_to_queue">%s added to queue</string>
+    <string name="text_made_in_mexico_by_adgutech">Made in Mexico 🇲🇽 by AdguTech.</string>
+    <string name="text_playlist_created">%s created successfully</string>
+    <string name="text_pro_feature">%s is a Pro feature</string>
+    <string name="text_restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
+    <string name="text_unknown_error_occurred">Unknown error occurred</string>
+    <string name="text_you_unfollowed">You unfollowed %s</string>
+    <string name="text_x_selected">%1$d selected</string>
+    <string name="text_not_internet">Not internet</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="speech_prompt">Search your library</string>
+    <string name="followers">followers</string>
+
+    <!-- Permissions -->
+    <string name="permission_denied">Permission denied</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_notification_denied">Permission to access notification denied</string>
+    <string name="permission_title_notification">Notification (required)</string>
+    <string name="permission_summary_notification">AdoMusic Remote requires access to notifications for the remote connection status of the Spotify app.</string>
+
+    <string name="summary_adomusic_remote_pro">Unlock all features: custom themes, volume controls, equalizer, and more.</string>
+    <string name="summary_item_limit">The items of the library and the songs in the playlist are limited to a maximum of 50 items.</string>
+
+    <!-- on/off equalizer -->
+    <string name="text_on">On</string>
+    <string name="text_off">Off</string>
+
+    <!-- action share -->
+    <string name="text_share_album">Share %s album using</string>
+    <string name="text_share_artist">Share %s artist using</string>
+    <string name="text_share_playlist">Share %s playlist using</string>
+    <string name="text_share_song">Share %s song using</string>
+    <string name="text_share_app">Hey check out this cool music player at: https://play.google.com/store/apps/details?id=%s</string>
+
+    <string name="title_spotify_premium_required">Spotify Premium required</string>
+    <string name="message_spotify_premium_required">This feature is available for Spotify Premium. To use this feature, please subscribe to Spotify Premium.</string>
+
+    <!-- items count -->
+    <string name="count_album">Album</string>
+    <string name="count_albums">Albums</string>
+    <string name="count_artist">Artist</string>
+    <string name="count_artists">Artists</string>
+    <string name="count_playlist">Playlist</string>
+    <string name="count_playlists">Playlists</string>
+    <string name="count_song">Song</string>
+    <string name="count_songs">Songs</string>
+
+    <!-- empty -->
+    <string name="empty">Empty</string>
+    <string name="empty_albums">No Albums</string>
+    <string name="empty_artists">No Artists</string>
+    <string name="empty_playlists">No Playlists</string>
+    <string name="empty_search">No results</string>
+    <string name="empty_queue">No queue</string>
+    <string name="no_lyrics_found">No lyrics found</string>
+    <string name="empty_playlist_tracks">The %s playlist is empty.</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_albums">Albums</string>
+    <string name="title_artists">Artists</string>
+    <string name="title_description">Description</string>
+    <string name="title_now_playing_queue">Now Playing Queue</string>
+    <string name="title_playlists">Playlists</string>
+    <string name="title_search">Search</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_songs">Songs</string>
+    <string name="title_liked_songs">Liked Songs</string>
+    <string name="title_more_albums_from">More albums from %s</string>
+    <string name="title_top_artists">Top artists</string>
+    <string name="title_top_tracks">Top tracks</string>
+
+    <string name="action_accept">Accept</string>
+    <string name="action_add_custom_playlist_cover_image">Add custom cover image</string>
+    <string name="action_add_to_current_playing">Add to playing queue</string>
+    <string name="action_add_to_playlist">Add to playlist</string>
+    <string name="action_browse_album">Browse album</string>
+    <string name="action_browse_artist">Browse artist</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_connect_with_spotify">Connect with Spotify</string>
+    <string name="action_create">Create</string>
+    <string name="action_download">Download</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_equalizer">Equalizer</string>
+    <string name="action_equalizer_custom">Custom</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_follow">Follow</string>
+    <string name="action_followed">Followed</string>
+    <string name="action_go_to_pro">Go to PRO</string>
+    <string name="action_grant">Grant</string>
+    <string name="action_grant_access">Grant access</string>
+    <string name="action_keyboard">Keyboard</string>
+    <string name="action_lyrics">Lyrics</string>
+    <string name="action_manager">Manager</string>
+    <string name="action_play">Play</string>
+    <string name="action_play_all">Play all</string>
+    <string name="action_ok">OK</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_remove_playlist_from_library">Remove playlist from library</string>
+    <string name="action_remove_to_liked_songs">Remove to Liked Songs</string>
+    <string name="action_restore">Restore</string>
+    <string name="action_save_playlist_to_library">Save playlist to library</string>
+    <string name="action_save_to_liked_songs">Save to Liked Songs</string>
+    <string name="action_see_details_on_spotify">See details on Spotify</string>
+    <string name="action_select_all">Select all</string>
+    <string name="action_set">Set</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_shuffle">Shuffle</string>
+    <string name="action_try_again">Try again</string>
+
+    <!-- Sort order -->
+    <string name="action_sort_order">Sort order</string>
+    <string name="action_sort_order_default">Default</string>
+    <string name="action_sort_order_asc">Ascending</string>
+    <string name="action_sort_order_desc">Descending</string>
+    <string name="action_album_sort_order_artist">Artists</string>
+    <string name="action_album_sort_order_artist_desc">Artists desc</string>
+    <string name="action_album_sort_order_release_date">Release date</string>
+    <string name="action_album_sort_order_release_date_desc">Release date desc</string>
+    <string name="action_artist_sort_order_most_followed_asc">Most followed</string>
+    <string name="action_artist_sort_order_most_followed_desc">Most followed desc</string>
+    <string name="action_playlist_sort_order_display_name_asc">User name</string>
+    <string name="action_playlist_sort_order_display_name_desc">User name desc</string>
+    <string name="action_playlist_sort_order_track_count_asc">Track count</string>
+    <string name="action_playlist_sort_order_track_count_desc">Track count desc</string>
+
+    <string name="hint_description">Description (optional)</string>
+    <string name="hint_playlist_name">Playlist name</string>
+    <string name="hint_search">Search songs, albums, artists &amp; playlists</string>
+    <string name="hint_search_songs">Search songs</string>
+
+    <!-- dialogs -->
+    <string name="title_browse_artist_on">Browse artist on</string>
+    <string name="title_spotify_install">Spotify isn\'t installed</string>
+    <string name="message_spotify_install">Download Spotify on Google Play to access music.</string>
+    <string name="title_notice">Note</string>
+    <string name="message_spotify_premium">Sorry, you don\'t have Spotify Premium to access your library.</string>
+    <string name="title_edit_playlist">Edit playlist</string>
+    <string name="title_new_playlist">New playlist</string>
+    <string name="summary_check_playlist_public">Check the playlist as Public</string>
+    <string name="title_remove_playlist_from_library">Remove playlist</string>
+    <string name="message_remove_playlist_from_library">Do you want to remove the %s playlist?, the playlist won\'t be deleted created by users.</string>
+
+    <!-- Album Type -->
+    <string name="album_type_album">Albums</string>
+    <string name="album_type_appears_on">Appears on</string>
+    <string name="album_type_compilation">Compilations</string>
+    <string name="album_type_single">Singles &amp; EP</string>
+
+    <string name="type_album">Album</string>
+    <string name="type_single">Single</string>
+
+    <string name="various_artists">Various Artists</string>
+
+    <!-- Preferences -->
+
+    <!-- Preferences category title & summary -->
+    <string name="preference_category_title_themes">Themes</string>
+    <string name="preference_category_summary_themes">Change the theme and colors of the app.</string>
+    <string name="preference_category_title_playback">Playback</string>
+    <string name="preference_category_summary_playback">Customize the now playing screen.</string>
+    <string name="preference_category_title_personalize">Personalize</string>
+    <string name="preference_category_summary_personalize">Customize your now playing and UI controls.</string>
+    <string name="preference_category_title_general">General</string>
+    <string name="preference_category_summary_general">General testing features.</string>
+    <string name="preference_category_title_spotify_settings">Spotify settings</string>
+    <string name="preference_category_summary_spotify_settings">More settings in the Spotify app.</string>
+    <string name="preference_category_title_about">About</string>
+    <string name="preference_category_summary_about">License, donate &amp; more.</string>
+
+    <!-- preferences subcategory -->
+
+    <!-- Theme Preference -->
+    <string name="title_preference_subcategory_theme">Theme</string>
+    <string name="title_preference_subcategory_colors">Colors</string>
+
+    <string name="title_preference_app_theme">App theme</string>
+    <string name="title_preference_just_black">Just Black</string>
+    <string name="title_preference_material_you">Material You</string>
+    <string name="title_preference_use_font">Use Nunito font</string>
+    <string name="title_preference_wallpaper_color">Wallpaper color</string>
+    <string name="title_preference_accent_color">Accent color</string>
+    <string name="title_preference_desaturated_color">Desaturated color</string>
+    <string name="title_preference_adaptive_color">Adaptive color</string>
+
+    <string name="summary_preference_wallpaper_color">Extract accent color from wallpaper</string>
+    <string name="summary_preference_accent_color">The theme accent color, defaults to blue</string>
+    <string name="summary_preference_desaturated_color">As per Material Design guide lines in dark mode colors should be desaturated</string>
+    <string name="summary_preference_adaptive_color">The background and control button colors change according to the album art from the now playing screen</string>
+
+    <!-- Theme arrays preference -->
+    <string name="title_light_theme">Light theme</string>
+    <string name="title_dark_theme">Dark theme</string>
+    <string name="title_follow_system_theme">Follow system</string>
+
+    <!-- Playback preference -->
+    <string name="title_preference_subcategory_controls">Controls</string>
+
+    <string name="title_preference_playback_theme">Playback theme</string>
+    <string name="title_preference_snow_fall_effect">Snowfall effect</string>
+    <string name="title_preference_lyrics_type">Lyrics type</string>
+    <string name="title_preference_lyrics_screen_on">Keep screen on when showing lyrics</string>
+    <string name="title_preference_circular_play_button">Circular play button</string>
+    <string name="title_preference_extra_controls">Extra controls</string>
+    <string name="title_preference_volume_controls">Volume controls</string>
+    <string name="title_preference_expand_now_playing_panel">Expand playback panel</string>
+    <string name="title_preference_blur_amount">Blur amount</string>
+
+    <string name="summary_preference_snow_fall_effect">You can enjoy the Snowfall feature during the christmas season. This feature is available for the christmas season.</string>
+    <string name="summary_preference_lyrics_screen_on">Keep in mind that enabling this feature may affect battery life</string>
+    <string name="summary_preference_extra_controls">Add extra controls for mini player</string>
+    <string name="summary_preference_volume_controls">If enough space is available, show volume controls in the now playing screen</string>
+    <string name="summary_preference_expand_now_playing_panel">Clicking on the notification will show playback screen instead of the home screen</string>
+    <string name="summary_preference_blur_amount">Amount of blur applied for blur themes, lower is faster</string>
+
+    <!-- Playback arrays preference -->
+    <string name="replace_cover">Replace cover</string>
+    <string name="over_cover">Over cover</string>
+
+    <!-- Personalize preference -->
+    <string name="title_preference_subcategory_library">Library</string>
+    <string name="title_preference_subcategory_window">Window</string>
+
+    <string name="title_preference_remember_tab">Remember tab</string>
+    <string name="title_preference_tab_titles_mode">Tab titles mode</string>
+    <string name="title_preference_appbar_mode">Appbar mode</string>
+    <string name="title_preference_fullscreen">Fullscreen</string>
+
+    <string name="summary_preference_remember_tab">Navigate to the last used tab on start</string>
+    <string name="summary_preference_fullscreen">Immersive mode</string>
+
+    <!-- Tab titles mode arrays preference -->
+    <string name="auto">Auto</string>
+    <string name="labeled">Labeled</string>
+    <string name="selected">Selected</string>
+    <string name="unlabeled">Unlabeled</string>
+
+    <!-- Appbar mode arrays preference -->
+    <string name="expanded">Expanded</string>
+    <string name="compact">Compact</string>
+
+    <!-- General preference -->
+    <string name="title_preference_subcategory_top_played">Top played</string>
+    <string name="title_preference_subcategory_advanced">Advanced</string>
+
+    <string name="title_preference_last_top_played_artist">Last top played artists</string>
+    <string name="title_preference_last_top_played_track">Last top played songs</string>
+    <string name="title_preference_pause_on_zero">Pause on zero</string>
+    <string name="title_preference_keep_screen_on">Keep the screen on</string>
+    <string name="title_preference_adjust_volume">Adjust the volume</string>
+    <string name="title_preference_language">Language</string>
+
+    <string name="summary_preference_pause_on_zero">Pauses the song when the volume decreases to zero and starts playing back when the volume level rises</string>
+    <string name="summary_preference_keep_screen_on">Keep in mind that enabling this feature may affect battery life</string>
+    <string name="summary_preference_adjust_volume">Control the volume when not playing</string>
+
+    <!-- Top Played Time Range preference -->
+    <string name="four_weeks">last 4 weeks</string>
+    <string name="six_months">last 6 months</string>
+    <string name="twelve_months">last 12 months</string>
+
+    <!-- About -->
+    <string name="title_version">Version</string>
+    <string name="title_rate_app">Rate app</string>
+    <string name="title_donate">Donate with PayPal</string>
+    <string name="title_share_app">Share app</string>
+    <string name="title_licenses">Licenses</string>
+    <string name="title_privacy_policy">Privacy policy</string>
+
+    <string name="summary_rate_app">Love this app? Let us know in the Google Play Store how we can make it even better.</string>
+    <string name="summary_donate">if you think I deserve to get paid for my work, you can leave some money here.</string>
+    <string name="summary_share_app">Share app with your friends and family.</string>
+
+    <!-- Pro -->
+    <string name="pro_now_playing_theme">5+ Now playing Theme</string>
+    <string name="pro_just_black">Just Black</string>
+    <string name="pro_adaptive_color">Adaptive color</string>
+    <string name="pro_volume_controls">Volume controls</string>
+    <string name="pro_pause_on_zero">Pause on zero</string>
+    <string name="pro_equalizer">Equalizer</string>
+
+    <!-- Pro features -->
+    <string name="title_preference_just_black_pro">Just Black (PRO)</string>
+    <string name="title_preference_adaptive_color_pro">Adaptive color (PRO)</string>
+    <string name="title_preference_volume_controls_pro">Volume controls (PRO)</string>
+    <string name="title_preference_pause_on_zero_pro">Pause on zero (PRO)</string>
+    <string name="action_equalizer_pro">Equalizer (PRO)</string>
+
+    <string name="text_could_not_restore_purchase">Could not restore purchase</string>
+    <string name="text_no_purchase_found">No purchase found</string>
+    <string name="text_purchased">Purchase successfully</string>
+    <string name="text_restoring_purchase">Restoring purchase…</string>
+
+    <!-- Notification -->
+    <string name="title_notification_app_remote">App remote notification</string>
+    <string name="description_notification_app_remote">The app remote notification provide connect to Spotify.</string>
+
+    <string name="title_notification_app_remote_connected">AdoMusic Remote is Running</string>
+    <string name="title_notification_app_remote_disconnected">AdoMusic Remote is disconnected</string>
+    <string name="summary_notification_app_remote_connected">AdoMusic is connected to spotify app remote.</string>
+    <string name="summary_notification_app_remote_disconnected">Please reconnect again.</string>
+</resources>

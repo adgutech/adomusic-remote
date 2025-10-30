@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2022-2025 Adolfo Gutiérrez <adgutech@gmail.com>
+  ~ and Contributors.
+  ~
+  ~ This file is part of Adgutech.
+  ~
+  ~  Adgutech is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_play"
+        android:title="@string/action_play"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_to_current_playing"
+        android:title="@string/action_add_to_current_playing"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_to_playlist"
+        android:title="@string/action_add_to_playlist"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_see_details_on_spotify"
+        android:title="@string/action_see_details_on_spotify"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_browse_album"
+        android:title="@string/action_browse_album"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_browse_artist"
+        android:title="@string/action_browse_artist"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_save_to_liked_songs"
+        android:title="@string/action_save_to_liked_songs"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_remove_to_liked_songs"
+        android:title="@string/action_remove_to_liked_songs"
+        app:showAsAction="never" />
+</menu>
