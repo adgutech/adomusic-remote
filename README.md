@@ -36,7 +36,7 @@
 
 ## Support the project
 
-Si encuentras valor en **AdoMusic Remote** y quieres contribuir a su desarrollo continuo, considera hacer una donación. Tu apoyo financiero nos permite:
+Si encuentras valor en **AdguTech** y quieres contribuir a su desarrollo continuo, considera hacer una donación. Tu apoyo financiero nos permite:
 
 - Implementar nuevas características y mejoras
 - Corregir errores y optimizar el rendimiento
@@ -49,7 +49,7 @@ Si encuentras valor en **AdoMusic Remote** y quieres contribuir a su desarrollo 
 
 </div>
 
-> **Nota**: Las donaciones son completamente opcionales. OpenTune siempre será gratuito y de código abierto, independientemente del apoyo financiero recibido.
+> **Nota**: Las donaciones son completamente opcionales. AdguTech siempre será gratuito y de código abierto, independientemente del apoyo financiero recibido.
 
 ---
 
