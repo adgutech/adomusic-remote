@@ -72,7 +72,7 @@ Este programa se distribuye con la esperanza de que sea útil, pero **SIN NINGUN
 ---
 
 <div align="center">
-  <p><strong>© 2023-2024 Proyectos de Código Abierto</strong></p>
+  <p><strong>© 2022-2025 Proyectos de Código Abierto</strong></p>
   <p>Desarrollado con pasión por <a href="https://github.com/adgutech">AdguTech</a></p>
   
   <br>
