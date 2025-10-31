@@ -20,7 +20,8 @@
 - [Preview](#preview)
 - [Main features](#main-features)
 - [How do I participate in the Spotify API testing?](#how-do-i-participate-in-the-spotify-api-testing)
-- [Support the project](#support-the-proyect)
+- [Support the project](#support-the-project)
+- [License](#license)
 
 ---
 
@@ -30,23 +31,33 @@
 
 ## Preview
 ### App Themes
-| <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg" width="200"/> |
+| <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (1).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (2).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (3).jpg" width="200"/> |
 |:---:|:---:|:---:|
 |Clearly white| Kinda dark | Just black|
 
 ### Player screen
-| <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" width="200"/>| <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg" width="200"/>| <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg" width="200"/>| <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg" width="200"/>| <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpg" width="200"/>|
-|:---:|:---:|:---:|:---:|:---:|
-| Home | Songs | Albums | Artists | Settings |
+| <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (4).jpg" width="200"/>| <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (5).jpg" width="200"/>| <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (6).jpg" width="200"/>|
+|:---:|:---:|:---:|
+| Player white | Player dark | Player black |
+
+### Navigation
+| <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (1).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (7).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (8).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (9).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (10).jpg" width="200"/> |
+|:-----: |:-----: |:-----: |:-----: |:-----: |
+| Home | Albums | Artists | Playlists | Search |
 
 ### 8+ Now playing themes
-| <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg" width="200"/>	|<img src="screenshots/fit.jpg" width="200"/>|   <img src="screenshots/flat.jpg" width="200"/>  	|    <img src="screenshots/color.jpg" width="200"/> 	|     <img src="screenshots/material.jpg" width="200"/>	|
-|:-----:	|:-----:	|:-----:	|:-----:	|:-----:	|
-| Normal 	| Fit 	| Flat 	| Color 	| Material 	|
+| <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (16).jpg" width="200"/>	|<img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (17).jpg" width="200"/>|   <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (18).jpg" width="200"/>  	|    <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (19).jpg" width="200"/> 	|
+|:-----:	|:-----:	|:-----:	|:-----:	|
+| Normal 	| Blur 	| Color 	| Material 	|
 
-| <img src="screenshots/classic.jpg" width="200"/>	|<img src="screenshots/adaptive.jpg" width="200"/>|   <img src="screenshots/blur.jpg" width="200"/>  	|    <img src="screenshots/tiny.jpg" width="200"/> 	|     <img src="screenshots/peek.jpg" width="200"/>	|
-|:-----:	|:-----:	|:-----:	|:-----:	|:-----:	|
-| Classic 	| Adaptive 	| Blur 	| Tiny 	| Peek 	|
+| <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (20).jpg" width="200"/>	|<img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (21).jpg" width="200"/>|   <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (22).jpg" width="200"/>  	|    <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (23).jpg" width="200"/> 	|
+|:-----:	|:-----:	|:-----:	|:-----:	|
+| MD3 	| Peek 	| Plain 	| Simple 	|
+
+### More preview
+| <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (11).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (12).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (13).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (14).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (15).jpg" width="200"/> |
+|:-----: |:-----: |:-----: |:-----: |:-----: |
+| Equalizer | Liked songs | Top Songs | Artist details | More albums about artist |
 
 ___
 
@@ -75,7 +86,7 @@ Si encuentras valor en **AdguTech** y quieres contribuir a su desarrollo continu
 
 ---
 
-## Licencse
+## License
 
 **Copyright © 2022-2025 AdguTech**
 
