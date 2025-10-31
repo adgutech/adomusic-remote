@@ -34,6 +34,8 @@
 
 ## How do I participate in the Spotify API testing?
 
+---
+
 ## Support the project
 
 Si encuentras valor en **AdguTech** y quieres contribuir a su desarrollo continuo, considera hacer una donación. Tu apoyo financiero nos permite:
