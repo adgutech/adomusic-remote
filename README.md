@@ -27,6 +27,10 @@
 
 ## Introduction
 
+AdoMusic Remote is a remote app that connects to Spotify and lets you play music.
+
+You can control playback of your favorite songs simply by connecting to access your library and controlling playback through this app. Finding albums, artists, and playlists has never been easier. Explore the main menu and search function to find millions of songs. Plus, you can save your favorite artists and songs, including your most played and saved tracks.
+
 > **Note**: AdoMusic is an independent project and is not affiliated with, sponsored, or endorsed by Spotify.
 
 ## Preview
@@ -65,16 +69,23 @@ ___
 
 ## How do I participate in the Spotify API testing?
 
+To testing the Spotify API, you must submit your request via Google Form.
+The following steps apply:
+
+- **Step 1** Download the AdoMusic Remote app (currently in Beta) from the [Web](https://play.google.com/apps/testing/com.adgutech.adomusic.remote) or [Android](https://play.google.com/store/apps/details?id=com.adgutech.adomusic.remote) links.
+- **Step 2** Submit a [Google form](https://docs.google.com/forms/d/13sAzgb2yt4gdgqZrvB9T612I74mCwb1ipacf37T0Ps8), enter your name and email and finish. Click submit and wait a few minutes or days for the library to appear.
+- **Step 3** Done! You can now run the tests.
+
 ---
 
 ## Support the project
 
-Si encuentras valor en **AdguTech** y quieres contribuir a su desarrollo continuo, considera hacer una donación. Tu apoyo financiero nos permite:
+If you find value in **AdoMusic Remote** and want to contribute to its continued development, consider making a donation. Your financial support allows us to:
 
-- Implementar nuevas características y mejoras
-- Corregir errores y optimizar el rendimiento
-- Mantener la infraestructura del proyecto
-- Dedicar más tiempo al desarrollo y mantenimiento
+- Implement new features and improvements
+- Fix bugs and optimize performance
+- Maintain project infrastructure
+- Dedicate more time to development and maintenance
 
 <div align="center">
   
@@ -82,17 +93,17 @@ Si encuentras valor en **AdguTech** y quieres contribuir a su desarrollo continu
 
 </div>
 
-> **Nota**: Las donaciones son completamente opcionales. AdguTech siempre será gratuito y de código abierto, independientemente del apoyo financiero recibido.
+> **Note**: Donations are completely optional. OpenTune will always be free and open-source, regardless of financial support received.
 
 ---
 
 ## License
 
-**Copyright © 2022-2025 AdguTech**
+**Copyright © 2022-2025 Adolfo Gutiérrez**
 
-Este programa es software libre: puedes redistribuirlo y/o modificarlo bajo los términos de la Licencia Pública General GNU publicada por la Free Software Foundation, ya sea la versión 3 de la Licencia, o (a tu elección) cualquier versión posterior.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-Este programa se distribuye con la esperanza de que sea útil, pero **SIN NINGUNA GARANTÍA**; ni siquiera la garantía implícita de COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Consulta la [Licencia Pública General GNU](https://github.com/adgutech/adomusic-remote/blob/main/LICENSE) para más detalles.
+This program is distributed in the hope that it will be useful, but **WITHOUT ANY WARRANTY**; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU General Public License](https://github.com/adgutech/adomusic-remote/blob/main/LICENSE) for more details.
 
 <div align="center">
   
@@ -100,17 +111,4 @@ Este programa se distribuye con la esperanza de que sea útil, pero **SIN NINGUN
 
 </div>
 
-> **Importante**: Cualquier uso comercial no autorizado de este software o sus derivados constituye una violación de los términos de licencia.
-
----
-
-<div align="center">
-  <p><strong>© 2022-2025 Proyectos de Código Abierto</strong></p>
-  <p>Desarrollado con pasión por <a href="https://github.com/adgutech">AdguTech</a></p>
-  
-  <br>
-  
-  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adgutech)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adgutech@gmail.com)
-  
-</div>
+> **Important**: Any unauthorized commercial use of this software or its derivatives constitutes a violation of the license terms.
