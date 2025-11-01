@@ -25,7 +25,7 @@
 
 ---
 
-## Introduction
+## 📃 Introduction
 
 AdoMusic Remote is a remote app that connects to Spotify and lets you play music.
 
@@ -69,7 +69,7 @@ ___
 ## 📦 Main features
 
 - ⚪ 3 base themes (clearly white, somewhat dark, and just black).
-- 🎶 Choose from over eight currently playing themes.
+- 📱 8+ Now playing themes.
 - 🔊 Volume controls.
 - 🎵 Create and edit playlists.
 - ▶️ Play queue (Spotify Premium only).
@@ -92,7 +92,7 @@ The following steps apply:
 
 ---
 
-## Support the project
+## 💵 Support the project
 
 If you find value in **AdoMusic Remote** and want to contribute to its continued development, consider making a donation. Your financial support allows us to:
 
