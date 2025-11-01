@@ -31,6 +31,10 @@ AdoMusic Remote is a remote app that connects to Spotify and lets you play music
 
 You can control playback of your favorite songs simply by connecting to access your library and controlling playback through this app. Finding albums, artists, and playlists has never been easier. Explore the main menu and search function to find millions of songs. Plus, you can save your favorite artists and songs, including your most played and saved tracks.
 
+Currently, the Spotify API is in **Development mode**. Spotify's new policy, effective May 15, 2025, only accepts applications from organizations (not individuals). I need a minimum of **25 users** to move to **Extended quota mode**. Please share this project or [Google Form](https://docs.google.com/forms/d/13sAzgb2yt4gdgqZrvB9T612I74mCwb1ipacf37T0Ps8). If you use the AdoMusic Remote application, it won't display the library; it will only control music playback. You must invite others to test the Spotify API.
+
+See [How do I participate in the Spotify API testing?](#how-do-i-participate-in-the-spotify-api-testing).
+
 > **Note**: AdoMusic is an independent project and is not affiliated with, sponsored, or endorsed by Spotify.
 > **MP3 files are not supported.**
 
