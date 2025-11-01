@@ -14,7 +14,7 @@
 
 ---
 
-## Table of contents
+## 📖 Table of contents
 
 - [Introduction](#introduction)
 - [Preview](#preview)
@@ -32,9 +32,9 @@ AdoMusic Remote is a remote app that connects to Spotify and lets you play music
 You can control playback of your favorite songs simply by connecting to access your library and controlling playback through this app. Finding albums, artists, and playlists has never been easier. Explore the main menu and search function to find millions of songs. Plus, you can save your favorite artists and songs, including your most played and saved tracks.
 
 > **Note**: AdoMusic is an independent project and is not affiliated with, sponsored, or endorsed by Spotify.
-> MP3 files are not supported.
+> **MP3 files are not supported.**
 
-## Preview
+## 📱 Preview
 ### App Themes
 | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (1).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (2).jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/screenshots/screenshot (3).jpg" width="200"/> |
 |:---:|:---:|:---:|
@@ -66,14 +66,27 @@ You can control playback of your favorite songs simply by connecting to access y
 
 ___
 
-## Main features
+## 📦 Main features
 
-## How do I participate in the Spotify API testing?
+- ⚪ 3 base themes (clearly white, somewhat dark, and just black).
+- 🎶 Choose from over eight currently playing themes.
+- 🔊 Volume controls.
+- 🎵 Create and edit playlists.
+- ▶️ Play queue (Spotify Premium only).
+- 👤 User profile.
+- 🧭 Browse and play your music by song, album, artist, playlist.
+- 🎚️ Equalizer.
+- 🎨 Color accent.
+- ☑️ Follow artists and/or playlists.
+- 🔝 Top artists and songs you've listened.
+- 🔍 Search navigation.
+
+## 📝 How do I participate in the Spotify API testing?
 
 To testing the Spotify API, you must submit your request via Google Form.
 The following steps apply:
 
-- **Step 1** Download the AdoMusic Remote app (currently in Beta) from the [Web](https://play.google.com/apps/testing/com.adgutech.adomusic.remote) or [Android](https://play.google.com/store/apps/details?id=com.adgutech.adomusic.remote) links.
+- **Step 1** Download the AdoMusic Remote app (currently in Beta) from the [Web](https://play.google.com/apps/testing/com.adgutech.adomusic.remote), [Android](https://play.google.com/store/apps/details?id=com.adgutech.adomusic.remote) links or get it from the [GitHub Releases](https://github.com/adgutech/adomusic-remote/releases).
 - **Step 2** Submit a [Google form](https://docs.google.com/forms/d/13sAzgb2yt4gdgqZrvB9T612I74mCwb1ipacf37T0Ps8), enter your name and email and finish. Click submit and wait a few minutes or days for the library to appear.
 - **Step 3** Done! You can now run the tests.
 
@@ -94,11 +107,11 @@ If you find value in **AdoMusic Remote** and want to contribute to its continued
 
 </div>
 
-> **Note**: Donations are completely optional. OpenTune will always be free and open-source, regardless of financial support received.
+> **Note**: Donations are completely optional. AdoMusic Remote will always be free and open-source, regardless of financial support received.
 
 ---
 
-## License
+## 🗂️ License
 
 **Copyright © 2022-2025 Adolfo Gutiérrez**
 
