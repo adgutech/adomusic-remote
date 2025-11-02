@@ -101,19 +101,20 @@ open class MiniPlayerFragment : AbsSpotifyServiceFragment(R.layout.fragment_mini
     }
 
     private fun updateSongTitle() {
-        val track = AppRemoteHelper.currentTrack!!
+        val track = AppRemoteHelper.currentTrack
+        if (track != null) {
+            val title = track.name.toSpannable()
+            title.setSpan(ForegroundColorSpan(textColorPrimary()), 0, title.length, 0)
 
-        val title = track.name.toSpannable()
-        title.setSpan(ForegroundColorSpan(textColorPrimary()), 0, title.length, 0)
+            val artists = Utils.getArtists(track.artists)
+            val text = artists.toSpannable()
+            text.setSpan(ForegroundColorSpan(textColorSecondary()), 0, text.length, 0)
 
-        val artists = Utils.getArtists(track.artists)
-        val text = artists.toSpannable()
-        text.setSpan(ForegroundColorSpan(textColorSecondary()), 0, text.length, 0)
-
-        binding.miniPlayerTitle.isSelected = true
-        binding.miniPlayerTitle.text = title
-        binding.miniPlayerText.isSelected = true
-        binding.miniPlayerText.text = text
+            binding.miniPlayerTitle.isSelected = true
+            binding.miniPlayerTitle.text = title
+            binding.miniPlayerText.isSelected = true
+            binding.miniPlayerText.text = text
+        }
     }
 
     private fun updateSongCover() {
