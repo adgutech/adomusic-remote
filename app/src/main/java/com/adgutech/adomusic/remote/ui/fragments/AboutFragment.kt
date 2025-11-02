@@ -28,6 +28,7 @@ import android.view.View
 import androidx.core.app.ShareCompat
 import androidx.core.view.doOnPreDraw
 import androidx.fragment.app.Fragment
+import com.adgutech.adomusic.remote.GITHUB_PROJECT
 import com.adgutech.adomusic.remote.R
 import com.adgutech.adomusic.remote.application.App
 import com.adgutech.adomusic.remote.databinding.FragmentAboutBinding
@@ -74,6 +75,9 @@ class AboutFragment : Fragment(R.layout.fragment_about) {
             }
             shareAppButton.setOnClickListener {
                 shareApp()
+            }
+            gitHubButton.setOnClickListener {
+                openUrl(GITHUB_PROJECT)
             }
             licensesButton.setOnClickListener {
                 LicensesDialogFragment().show(childFragmentManager, "LicensesDialogFragment")

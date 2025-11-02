@@ -49,6 +49,7 @@ const val REDIRECT_URI = "adomusicremote://callback"
 
 const val SPOTIFY_APPLICATIONS_MANAGER = "https://www.spotify.com/mx/account/apps/"
 const val SPOTIFY_PREFERENCE = "https://open.spotify.com/preferences"
+const val GITHUB_PROJECT = "https://github.com/adgutech/adomusic-remote"
 
 const val ADOMUSIC_REMOTE_PRO_PRODUCT_ID = "adomusic_remote_pro"
 

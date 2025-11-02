@@ -305,6 +305,7 @@
     <string name="summary_rate_app">Love this app? Let us know in the Google Play Store how we can make it even better.</string>
     <string name="summary_donate">if you think I deserve to get paid for my work, you can leave some money here.</string>
     <string name="summary_share_app">Share app with your friends and family.</string>
+    <string name="summary_github">Fork the project on GitHub</string>
 
     <!-- Pro -->
     <string name="pro_now_playing_theme">5+ Now playing Theme</string>

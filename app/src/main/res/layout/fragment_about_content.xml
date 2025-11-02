@@ -136,6 +136,14 @@
             android:layout_height="match_parent">
 
             <com.adgutech.commons.ui.views.ItemAboutView
+                android:id="@+id/gitHubButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:aboutIcon="@drawable/ic_github_circle_24dp"
+                app:aboutTitle="@string/title_github"
+                app:aboutText="@string/summary_github" />
+
+            <com.adgutech.commons.ui.views.ItemAboutView
                 android:id="@+id/licensesButton"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

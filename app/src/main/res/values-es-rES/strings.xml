@@ -306,6 +306,7 @@
     <string name="summary_rate_app">¿Te gusta esta app? Cuéntanos en Google Play cómo podemos mejorarla.</string>
     <string name="summary_donate">Si crees que merezco que me paguen por mi trabajo, puedes dejar algo de dinero aquí.</string>
     <string name="summary_share_app">Comparte la app con tus amigos y familiares.</string>
+    <string name="summary_github">Bifurca el proyecto en GitHub</string>
 
     <!-- Pro -->
     <string name="pro_now_playing_theme">5+ Temas de reproducción</string>

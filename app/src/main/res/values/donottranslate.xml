@@ -3,6 +3,7 @@
     <string name="app_name">AdoMusic Remote</string>
 
     <string name="title_adomusic_remote_pro">AdoMusic Remote PRO</string>
+    <string name="title_github">GitHub</string>
 
     <!-- Now player styles -->
     <string name="blur">Blur</string>
