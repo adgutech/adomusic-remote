@@ -103,7 +103,7 @@ Si encuentras valor en **AdoMusic Remote** y quieres contribuir a su desarrollo 
 
 <div align="center">
   
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](mailto:adgutech@gmail.com)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/adgutech)
 
 </div>
 
