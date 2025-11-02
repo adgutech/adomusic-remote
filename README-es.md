@@ -14,12 +14,12 @@
 
 ## Tabla de contenido
 
-- [Introducción](#introductión)
-- [Vista previa](#vista-previa)
-- [Características principales](#características-principales)
-- [¿Cómo participar la prueba de Spotify API?](#cómo-participar-la-prueba-de-spotify-api)
-- [Apoyar el proyecto](#apoyar-el-proyecto)
-- [Licencia](#licencia)
+- [Introducción](#-introductión)
+- [Vista previa](#-vista-previa)
+- [Características principales](#-características-principales)
+- [¿Cómo participar la prueba de Spotify API?](#-cómo-participar-la-prueba-de-spotify-api)
+- [Apoyar el proyecto](#-apoyar-el-proyecto)
+- [Licencia](#-licencia)
 
 ---
 
@@ -29,7 +29,7 @@ AdoMusic Remote is a remote app that connects to Spotify and lets you play music
 
 Puedes controlar la reproducción de tus canciones favoritas, tan solo vincular para acceder el contenido de la biblioteca y controlar a través de esta aplicación. Encontrar un álbum, artistas y lista de reproducciones de la navegación nunca fue fácil, explorar en el menú principal y el buscador que puedes encontrar millones de canciones. Además, puede tener sus artistas y canciones favoritas más reproducidas y canciones guardadas que te gusta.
 
-Por el momento Spotify API está en **Modo desarrollo**, la nueva política de Spotify a partir de 15 de mayo de 2025, solo acepta solicitudes de organizaciones (no de particulares) y necesito **25 usuarios** mínimo para poder pasar a **Modo de Cuota Extendida** y favor de compartir este proyecto o [Formulario de Google](https://docs.google.com/forms/d/13sAzgb2yt4gdgqZrvB9T612I74mCwb1ipacf37T0Ps8). Si usas la aplicación AdoMusic Remote no mostrará la biblioteca y solo controlar la reproducción de música y tienes que invitar a probar Spotify API. Vea en [¿Cómo participar la prueba de Spotify API?](#cómo-participar-la-prueba-de-spotify-api).
+Por el momento Spotify API está en **Modo desarrollo**, la nueva política de Spotify a partir de 15 de mayo de 2025, solo acepta solicitudes de organizaciones (no de particulares) y necesito **25 usuarios** mínimo para poder pasar a **Modo de Cuota Extendida** y favor de compartir este proyecto o [Formulario de Google](https://docs.google.com/forms/d/13sAzgb2yt4gdgqZrvB9T612I74mCwb1ipacf37T0Ps8). Si usas la aplicación AdoMusic Remote no mostrará la biblioteca y solo controlar la reproducción de música y tienes que invitar a probar Spotify API. Vea en [¿Cómo participar la prueba de Spotify API?](#-cómo-participar-la-prueba-de-spotify-api).
 
 > **Nota**: AdoMusic Remote es un proyecto independiente y no está afiliado, patrocinado ni respaldado por Spotify.
 > **No admite archivos de MP3.**
