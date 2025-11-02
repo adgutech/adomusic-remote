@@ -86,7 +86,7 @@ ___
 Para invitar una prueba de Spotify API, debes enviar a través de formulario de Google.
 Los siguientes los pasos son:
 
-- **Paso 1** Descargue la aplicación AdoMusic Remote (actualmente está en Beta) en los vínculos [Web](https://play.google.com/apps/testing/com.adgutech.adomusic.remote), [Android](https://play.google.com/store/apps/details?id=com.adgutech.adomusic.remote) o get it from the [GitHub Releases](https://github.com/adgutech/adomusic-remote/releases).
+- **Paso 1** Descargue la aplicación AdoMusic Remote (actualmente está en Beta) en los vínculos [Web](https://play.google.com/apps/testing/com.adgutech.adomusic.remote), [Android](https://play.google.com/store/apps/details?id=com.adgutech.adomusic.remote) o consíguelo desde [GitHub Releases](https://github.com/adgutech/adomusic-remote/releases).
 - **Paso 2** Enviar un [Formulario de Google](https://docs.google.com/forms/d/13sAzgb2yt4gdgqZrvB9T612I74mCwb1ipacf37T0Ps8), ingresa tu nombre y correo electrónico y finalizar, da clic enviar y esperar unos minutos o días a parecerá la biblioteca.
 - **Paso 3** Listo! ya puedes hacer las pruebas.
 
