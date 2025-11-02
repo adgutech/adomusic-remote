@@ -104,8 +104,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#1ED760"
+            android:text="@string/action_connect_with_spotify"
+            android:textColor="@android:color/white"
             app:icon="@drawable/ic_spotify"
-            android:text="@string/action_connect_with_spotify" />
+            app:iconTint="@android:color/white" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
