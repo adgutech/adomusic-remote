@@ -16,12 +16,12 @@
 
 ## 📖 Table of contents
 
-- [Introduction](#introduction)
-- [Preview](#preview)
-- [Main features](#main-features)
-- [How do I participate in the Spotify API testing?](#how-do-i-participate-in-the-spotify-api-testing)
-- [Support the project](#support-the-project)
-- [License](#license)
+- [Introduction](#-introduction)
+- [Preview](#-preview)
+- [Main features](#-main-features)
+- [How do I participate in the Spotify API testing?](#-how-do-i-participate-in-the-spotify-api-testing)
+- [Support the project](#-support-the-project)
+- [License](#-license)
 
 ---
 
