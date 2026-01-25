@@ -198,7 +198,7 @@
     <string name="title_preference_desaturated_color">Color desaturado</string>
     <string name="title_preference_adaptive_color">Color adaptable</string>
     <string name="summary_preference_wallpaper_color">Extraer el color de acento del fondo de pantalla</string>
-    <string name="summary_preference_accent_color">El color de énfasis del tema es azul por defecto.</string>
+    <string name="summary_preference_accent_color">El color de énfasis del tema es azul por defecto</string>
     <string name="summary_preference_desaturated_color">Según las directrices de Material Design, los colores en el modo oscuro deben ser desaturados.</string>
     <string name="summary_preference_adaptive_color">Los colores del fondo y de los botones de control cambian según la carátula del álbum en la pantalla de reproducción.</string>
     <!-- Theme arrays preference -->
@@ -255,18 +255,18 @@
     <string name="summary_preference_keep_screen_on">Ten en cuenta que habilitar esta función puede afectar la duración de la batería</string>
     <string name="summary_preference_adjust_volume">Controla el volumen cuando no estés reproduciendo</string>
     <!-- Top Played Time Range preference -->
-    <string name="four_weeks">Últimas 4 semanas</string>
-    <string name="six_months">Últimos 6 meses</string>
-    <string name="twelve_months">Últimos 12 meses</string>
+    <string name="four_weeks">Últimas 4 Semanas</string>
+    <string name="six_months">Últimos 6 Meses</string>
+    <string name="twelve_months">Últimos 12 Meses</string>
     <!-- About -->
-    <string name="title_version">Version</string>
+    <string name="title_version">Versión</string>
     <string name="title_rate_app">Calificar la app</string>
     <string name="title_donate">Donar con PayPal</string>
     <string name="title_share_app">Compartir la app</string>
     <string name="title_licenses">Licencias</string>
     <string name="title_privacy_policy">Política de privacidad</string>
     <string name="summary_rate_app">¿Te gusta esta app? Cuéntanos en Google Play cómo podemos mejorarla.</string>
-    <string name="summary_donate">Si crees que merezco que me paguen por mi trabajo, puedes dejar algo de dinero aquí.</string>
+    <string name="summary_donate">Si crees que merezco que me paguen por mi trabajo, puedes dejar algo de dinero aquí</string>
     <string name="summary_share_app">Comparte la app con tus amigos y familiares.</string>
     <string name="summary_github">Bifurca el proyecto en GitHub</string>
     <!-- Pro -->
